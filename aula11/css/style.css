@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:  arial;
+}
+
+.header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    
+}
+
+.logo__cima {
+    
+    padding-left: 30px;
+}
+.nome_pizzaria{
+    padding-bottom: 25px;
+}
+.menu__cima {
+    
+    color: white;
+    padding-left: 200px;
+    list-style: none;
+   
+   
+
+}
+
+    
+
+.main{
+    display: flex;
+    background-color: #E5e5e5;
+    gap: 20px;
+    
+}
+.delivery{
+    background-image: url(/img/delivery.jpg);
+    color: red;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 25px;
+    padding-left: 70px;
+    
+width: 490px;
+height: 350px;
+left: 19px;
+top: 135px;
+
+    }
+    .cardapio{
+        display: flex;
+    background-color: #fff;
+    margin-top: 30px;
+width: 600px;
+height: 350px;
+left: 800px;
+top: 135px;
+flex-wrap: wrap;
+margin-bottom: 30px;
+    }
+ .cardapio__pizza{
+     width: 100%;
+     padding-left: 135px;
+     height: 30%;
+     color: red;
+     font-size: 20px;
+     padding-top: 20px;
+ }
+    .top{
+        
+        width: 355px;
+        height: 250px;
+        left: 20px;
+        top: 150px;
+        padding-left: 50px;
+        font-size: 18px;
+        
+    }
+  .falling{
+
+    width: 92px;
+    height: 129px;
+    left: 205px;
+    top: 175px;
+    padding-top: 30px;
+  }
+  .footer{
+      display: flex;
+      flex-direction: row;
+      background-color: black;
+      color: white;
+      justify-content: space-between;
+  }
+  .menu_baixo{
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  .logo__baixo {
+    
+    padding-right: 30px;
+    padding-top: 45px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-top: 30px;
+    padding-right: 25px;
+    
+}
+span{
+    color: white;
+}
