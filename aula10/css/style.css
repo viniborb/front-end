@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bar__discount {
+  font-size: 10px;
+  background-color: #1cd1b0;
+  padding-left: 5px;
+}
+.header {
+  background: #00669f;
+  padding-left: 20px;
+  width: 100%;
+  height: 50px;
+}
+.card_container {
+  display: flex;
+}
+
+.card {
+  border-top-right-radius: 80px;
+  border-top-left-radius: 80px;
+  margin: 100px 50px 50px 150px;
+  background: #e5e5e5;
+}
+.background_batman {
+  background-image: url(/img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 218.94px;
+  position: relative;
+  padding-top: 50px;
+}
+
+.background_arlequina {
+    background-image: url(/img/arlequina\ background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 218.94px;
+    position: relative;
+    padding-top: 50px;
+  }
+
+.like {
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 20px;
+  z-index: 1;
+}
+.profile_batman {
+  position: absolute;
+  width: 135.43px;
+  height: 100px;
+  left: 231.57px;
+  top: 320px;
+  padding-left: 80px;
+  padding-bottom: 80px;
+  }
+
+.batman_perfil {
+  border-radius: 100%;
+}
+
+.profile_arlequina {
+    position: absolute;
+width: 137.69px;
+height: 137.69px;
+left: 967px;
+top: 324.31px;
+}
+
+.arlequina_perfil {
+    border-radius: 100%;
+  }
+.texto {
+  padding-top: 100px;
+  
+}
+.ver__mais {
+padding-top: 50px;
+padding-bottom: 50px;
+padding-left: 200px;
+
+}
+
+.ver__mais a{
+    background-color: #00669f;
+    text-decoration: none;
+    color: white;
+    
+}
+.footer{
+    background-color:#00669f;
+    color: white;
+}
+h3{
+    text-align: center;
+    
+}
+h4{
+    text-align: center;
+    margin: 20px;
+}
