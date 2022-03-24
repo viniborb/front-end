@@ -1,72 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
-<body>
-    <header>
-        <div>
-            <h1>
-                Logo
-            </h1>
-        </div>
-        <div>
-            <nav>
-                <div>
-                    <a href="#baner">Home</a>
-                </div>
-                <div>
-                    <a href="#curiosidades">Curiosidades</a>
-                </div>
-                <div>
-                    <a href="#video">Vídeo</a>
-                </div>
-            </nav>
-        </div>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img
+          src="https://www.saojose.sc.gov.br/images/uploads/sao-jose/nota_010221.jpg"
+          alt="Brasão da cidade de São José"
+        />
+      </div>
+      <div>
+        <nav class="nav">
+          <button><a href="#baner">Home</a></button>
+
+          <button><a href="#curiosidades">Curiosidades</a></button>
+
+          <button><a href="#video">Vídeo</a></button>
+        </nav>
+      </div>
     </header>
     <main>
-        <section baner>
-        <div class="baner">
-            <img src="" alt="">
+      <section id="banner"  class="banner">
+        <div class="baner"></div>
+        <div>
+          <p class="sinopse">
+            São José, uma cidade vizinha a Florianópolis, tem mais de 200 anos e
+            é uma das cidades com o maior PIB do estado, sendo dividido em 3
+            Principais Regiões, Barreiros, Campinas e Kobrasol.
+          </p>
         </div>
-    </section>
-    <section curiosidades>
-        <div class="curiosidades">
-            <h2>Curiosidades da Cidade</h2>
+      </section>
+      <section id="curiosidades">
+        <div>
+          <h2>Curiosidades da Cidade</h2>
+          <div class="curiosidades">
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sit debitis odio dicta incidunt. Eaque facere dicta nobis earum! Porro molestias delectus sapiente veniam laborum aut doloremque dolorum dicta nam?</p>
+              <p>
+                São José é a Quarta cidade mais antiga do estado, tendo 264
+                anos.
+              </p>
             </div>
             <div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima autem officia optio excepturi quibusdam nihil eos libero, sint voluptatibus fugit aspernatur, quasi dignissimos inventore dicta eligendi voluptas placeat nisi facilis?
-                </p>
+              <p>Tem o 2° maior PIB da região da grande Florianópolis.</p>
             </div>
             <div>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione explicabo unde, nisi repudiandae reiciendis necessitatibus enim quos nemo harum sequi, consequatur, magni corporis ipsum illo voluptates fugit iste facilis ipsa?
-                </p>
+              <p>Tem a única escola de Olaria da América Latina.</p>
             </div>
+          </div>
         </div>
-    </section>
-    <section video>
+      </section>
+      <section id="video">
+        <h2>Vídeo</h2>
         <div class="video">
-
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/aDoY4v5p1R0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
-    </section>
+      </section>
     </main>
-    <footer>
-        <div>
-            <img src="" alt="">
-            <a target="_blank" href="">Linkedin</a>
-        </div>
-        <div>
-            <img src="" alt="">
-            <a target="_blank" href="">GitHub</a>
-        </div>
-
+    <footer class="footer">
+      <div>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/vinicius-borba-8a126a235/"
+          ><img src="img/icons8-linkedin-30.png" alt="Logo do LinkedIn" /></a
+        >
+      </div>
+      <div>
+        <a target="_blank" href="https://github.com/viniborb"><img src="img/icons8-github-30.png" alt="Logo do GitHub" /></a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
